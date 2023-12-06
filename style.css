@@ -1,0 +1,929 @@
+/* -------------------header----------------------- */
+
+.header {
+    width: 100%;
+    background: #FAF5E5;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.logo {
+    padding-left: 80px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 11px; 
+    letter-spacing: 0.99px;
+    text-transform: uppercase;
+}
+
+.header-nav{
+    display: flex;
+    gap: 20px;
+    /* width: 40px; */
+    color: rgba(23, 23, 23, 0.90);
+    /* text-align: right; */
+    font-family: Roboto;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 11px; 
+    letter-spacing: 0.99px;
+    text-transform: uppercase;
+}
+
+/* -------------------title----------------------- */
+
+.title {
+    background: #FAF5E5;
+    display: grid;
+    grid-template-areas: "first second";
+}
+
+#first {
+    grid-area: first;
+}
+#second{
+    grid-area: second
+}
+
+.left_part_title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;  
+    margin-top: 200px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.title_text {
+    width: 313px;
+    color: #171717;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 51px;
+    font-weight: 400;
+    line-height: 58.65px; 
+}
+
+.explanation_title_text {
+    width: 179px;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13px; 
+    letter-spacing: 2.08px;
+    text-transform: uppercase;
+}
+
+.human_title {
+    width: 190px;
+    height: 190px;
+}
+
+.line_ttile {
+    width: 440px;
+    height: 1px;
+    background: #050505;
+}
+
+.title_photo_food {
+    width: 722px;
+    height: 962px;
+    margin-left: auto;
+}
+
+/* -------------------good company----------------------- */
+
+.good_company {
+    display: flex;
+    flex-direction: column;
+    background: #FAF5E5;
+    flex-wrap: wrap;
+    /* padding-left: 10% */
+}
+
+.title_good__company {
+    padding-top: 100px;
+    padding-left: 10%;
+    width: 470px;
+    color: #171717;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 51px;
+    font-weight: 400;
+    line-height: 58.65px; 
+}
+
+.description_good__company {
+    /* clear: both; */
+    padding-top: 50px;
+    width: 374px;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px; 
+    letter-spacing: 0.32px;
+    margin-left: 9%;
+}
+
+.photo_good__company {
+    margin-top: 100px;
+    width: 283px;
+    height: 140px;
+    margin-left: 12%;
+}
+
+.rule_good__company {
+    padding-top: 100px;
+    width: 339px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 33.8px; 
+    letter-spacing: 0.78px;
+    margin-left: 11%;
+}
+
+.book_yourself {
+    padding-top: 90px;
+    width: 150px;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13px; 
+    letter-spacing: 2.08px;
+    text-transform: uppercase;
+    margin-left: 16%;
+}
+
+.line_company {
+    margin-top: 5px;
+    width: 147.281px;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.30);
+    margin-left: 16%;
+}
+
+.photo_human {
+    padding-top: 10px;
+    width: 282px;
+    height: 376px;
+    margin-left: 12%;
+}
+
+/* -------------------menu----------------------- */
+
+.menu {
+    background: #FAF5E5;
+    padding-top: 200px;
+}
+
+.first_menu {
+    display: grid;
+    grid-template-areas: "first second";
+    grid-area: first;
+}
+
+.discription_first__menu{
+    grid-area: first;
+    margin-left: 19%;
+}
+
+.the_menu {
+    width: 90px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13px; 
+    letter-spacing: 2.08px;
+    text-transform: uppercase;
+}
+
+.title_menu {
+    padding-top: 50px;
+    width: 353px;
+    color: #171717;
+    font-family: Roboto;
+    font-size: 59px;
+    font-weight: 400;
+    line-height: 63px; 
+    letter-spacing: 1.8px;
+}
+
+.description_menu {
+    padding-top: 60px;
+    width: 379px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px; 
+    letter-spacing: 0.32px;
+}
+
+.view_menu {
+    padding-top: 30px;
+    width: 130px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13px; 
+    letter-spacing: 2.08px;
+    text-transform: uppercase;
+}
+
+.line_menu {
+    margin-top: 5px;
+    width: 123.047px;
+    height: 1px;
+    flex-shrink: 0;
+    background: rgba(0, 0, 0, 0.30);
+}
+
+.photo_menu1 {
+    width: 404px;
+    height: 539px;
+    grid-area: second;
+    margin-left: 20%;
+}
+
+.second_menu{
+    display: grid;
+    grid-template-areas: "first second";
+    padding-top: 40px;
+}
+
+.photo_menu2 {
+    grid-area: first;
+    width: 404px;
+    height: 538px;
+    margin-left: 19%;
+    margin-bottom: 20px;
+}
+
+.description_second__menu{
+    padding-top: 150px;
+    grid-area: second;
+    margin-left: 18%;
+}
+
+.description_photo__menu {
+    width: 390px;
+    color: #000;   
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 33.8px; 
+    letter-spacing: 0.78px;
+}
+
+.book_in {
+    padding-top: 60px;
+    width: 70px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13px; 
+    letter-spacing: 2.08px;
+    text-transform: uppercase;
+}
+
+.line_book {
+    margin-top: 2px;
+    width: 69.641px;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.30);
+}
+
+/* ------------------- wine ----------------------- */
+
+
+.wine {
+    height: 800px;
+    background-color: #aa5007;
+    display: grid;
+    grid-template-areas: "first second";
+}
+
+.photo_wine {
+    margin-top: 200px;
+    grid-area: first;
+    margin-left: 20%;
+    width: 404px;
+    height: 539px;
+}
+
+.discription_photo__wine {
+    grid-area: second;
+    margin-left: 20%;
+    padding-top: 130px;
+}
+
+.wine_offering {
+    width: 290px;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13px; 
+    letter-spacing: 2.08px;
+    text-transform: uppercase;
+    padding-left: 20%;
+}
+
+.title_wine {
+    margin-top: 45px;
+    width: 259px;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 63px; 
+    letter-spacing: 1.8px;
+    padding-left: 14%;
+}
+
+.discription_wine {
+    margin-top: 45px;
+    width: 438px;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: 0.32px;
+}
+
+.drink_list {
+    padding-left: 24%;
+    margin-top: 30px;
+    width: 300px;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13px; 
+    letter-spacing: 2.08px;
+    text-transform: uppercase;
+}
+
+
+/* ------------------- wine ----------------------- */
+
+.gift_vouchers {
+    background-color:#FAF5E5;;
+    display: grid;
+    grid-template-areas: "first second";
+    height: 520px;
+}
+
+.photo_gift {
+    grid-area: first;
+    width: 514px;
+    height: 359px;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+
+.discription_photo__gift {
+    grid-area: second;
+    margin-top: 100px;
+}
+
+.title_gift {
+    width: 119px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px; 
+    letter-spacing: 2.08px;
+    text-transform: uppercase;
+}
+
+.heading_gift {
+    padding-top: 40px;
+    width: 371px;
+    color: #171717;
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 63px; 
+    letter-spacing: 1.8px;
+}
+
+.discription_gift {
+    padding-top: 60px;
+    width: 389px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px; 
+    letter-spacing: 0.32px;
+}
+
+/* -------------------photo eat ----------------------- */
+
+.photo_food {
+    width: 100%;
+    height: 960px;
+}
+
+/* ------------------- news ----------------------- */
+
+.news {
+    background: #FAF5E5;
+}
+
+.title_news {
+    padding-top: 90px;
+    color: #000; 
+    text-align: center;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px; 
+    letter-spacing: 2.08px;
+    text-transform: uppercase;
+}
+
+.discription_news {
+    padding-top: 80px;
+    text-align: left;
+    width: 580px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 33.8px; 
+    letter-spacing: 0.78px;
+    margin-left: 32%;
+}
+
+.input {
+    padding-top: 80px;
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+    justify-content: center;
+
+}
+
+.input_news {
+    width: 244px;
+    height: 38px;
+    border: 1px solid #000;
+    background: transparent;
+}
+
+.button_input {
+    margin-left: 30px;
+    width: 57px;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: 99px;
+    height: 22px;
+    border: 1px solid #222;
+    background: #222;
+}
+
+.line_news {
+    margin-top: 90px;
+    width: 100%;
+    height: 1px;
+    background: #050505;
+}
+
+/* ------------------- venues ----------------------- */
+
+.venues {
+    background: #FAF5E5;
+    display: grid;
+    grid-template-areas: "first second";
+    height: 888px;
+}
+
+.photo_venues {
+    margin: 100px 0 0 100px;
+    width: 514px;
+    height: 685px;
+    grid-area: first;
+}
+
+.discription_photo__venues {
+    grid-area: second;
+    margin-top: 170px;
+}
+.our_other__venues {
+    width: 150px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px; 
+    letter-spacing: 2.08px;
+    text-transform: uppercase;
+}
+
+.title_venues {
+    margin-top: 40px;
+    width: 350px;
+    color: #171717;
+    font-family: Roboto;
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 63px; /* 108.621% */
+    letter-spacing: 1.8px;
+}
+
+.discription_venues {
+    margin-top: 60px;
+}
+
+.first_venues {
+    width: 205px;
+    color: #000;  
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px; /* 140% */
+    letter-spacing: 0.32px;
+}
+
+.second_venues {
+    width: 326px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px; /* 140% */
+    letter-spacing: 0.32px;
+}
+
+.third_venues {
+    width: 336px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px; /* 140% */
+    letter-spacing: 0.32px;
+}
+
+.line_venues__discription {
+    margin: 40px 0 0 15px;
+    width: 57%;
+    height: 1px;
+    background: #050505;
+}
+
+.logo_venues1 {
+    margin-top: 40px;
+    width: 187px;
+    height: 101px;
+}
+
+.logo_venues2 {
+    margin: 40px 0 0 30px;
+    width: 185px;
+    height: 84px;
+}
+
+.line_venues {
+    clear: both;
+    margin-top: 80px;
+    width: 175.5%;
+    height: 1px;
+    background: #000;
+}
+
+/* ------------------- ending ----------------------- */
+
+.ending {
+    background: #FAF5E5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo_ending {
+    margin-top: 25px;
+    width: 150px;
+    height: 150px;
+}
+
+.address_ending {
+    margin-top: 70px;
+    width: 334px;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13px; /* 100% */
+    letter-spacing: 2.08px;
+    text-transform: uppercase;
+}
+
+.cicruses_ending {
+    margin-top: 10px;
+    width: 118px;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13px; /* 100% */
+    letter-spacing: 2.08px;
+    text-transform: uppercase;
+}
+
+.photo_ending {
+    margin-top: 20px;
+    width: 175px;
+    height: 175px;
+}
+
+.social_media {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.instagram {
+    width: 100px;
+    text-decoration: underline;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px; /* 140% */
+    letter-spacing: 0.32px;
+}
+
+.facebook {
+    width: 92px;
+    text-decoration: underline;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px; /* 140% */
+    letter-spacing: 0.32px;
+}
+
+.operating_mode_weekdays {
+    margin-top: 20px;
+    width: 244px;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px; /* 140% */
+    letter-spacing: 0.32px;
+}
+
+.operating_mode_weekends {
+    margin-top: 5px;
+    width: 240px;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px; /* 140% */
+    letter-spacing: 0.32px;
+}
+
+.line_ending {
+    margin-top: 70px;
+    width: 100%;
+    height: 1px;
+    background: #000;
+}
+
+/* ------------------- footer ----------------------- */
+
+.footer {
+    background: #FFD36B;
+    display: grid;
+    grid-template-areas: 
+    "first second"
+    "first third";
+}
+
+.photo_footer {
+    grid-area: first;
+    margin: 40px 0 0 100px;
+    width: 180px;
+    height: 180px;
+}
+
+.line_first__footer{
+    width: 1px;
+    height: 240px;
+    background: #000;
+}
+
+.second_part__footer {
+    grid-area: second;
+    display: flex;
+    justify-content: space-between;
+    height: 210px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+.title_contact {
+    width: 100px;
+    color: #000; 
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px; /* 108.333% */
+    letter-spacing: 2.08px;
+    text-transform: uppercase;
+}
+
+.discription_contact {
+    margin-top: 20px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px; /* 140% */
+    letter-spacing: 0.32px;
+    width: 60%;
+}
+
+.opening_hours {
+    margin-top: 30px;
+}
+
+.title_opening {
+    width: 124px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px; /* 108.333% */
+    letter-spacing: 2.08px;
+    text-transform: uppercase;
+}
+
+.disription_opening {
+    margin-top: 20px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px; /* 140% */
+    letter-spacing: 0.32px;
+    width: 70%;
+}
+
+.socials {
+    margin-top: 30px;
+}
+
+.title_socials {
+    width: 65px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13px; /* 100% */
+    letter-spacing: 2.08px;
+    text-transform: uppercase;
+}
+
+.instagram_footer {
+    margin-top: 20px;
+    width: 100px;
+    color: #000;
+    text-decoration: underline;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px; /* 140% */
+    letter-spacing: 0.32px;
+}
+
+.facebook_footer {
+    width: 92px;
+    color: #000;
+    text-decoration: underline;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px; /* 140% */
+    letter-spacing: 0.32px;
+    margin-top: 15px;
+}
+
+.line_second__footer{
+    width: 904.016px;
+    height: 1px;
+    background: #000;
+}
+
+.third_part__footer {
+    grid-area: third;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.year_footer {
+    width: 103px;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 9px; /* 100% */
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.words_footer {
+    width: 132px;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 9px; /* 100% */
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+
+.photography {
+    width: 197px;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 9px; /* 100% */
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+
+.design {
+    width: 201px;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 9px; /* 100% */
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+
+
+/* ------------------- adaptive ----------------------- */
+
+@media (min-width: 480px ) {
+    .header{
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 450px ) {
+    .header-nav{
+        margin-top: 30px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
